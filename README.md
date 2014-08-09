@@ -1,4 +1,4 @@
-Edison_Mezzanine_GPIO_Breakout
-==============================
+Edison_Mezzanine_Base
+=====================
 
-GPIO breakout to breadboard for Edison Mezzanine stack
+Base Board for Edison Mezzanine stack
