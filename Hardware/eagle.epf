@@ -33,7 +33,7 @@ Type="Schematic Editor"
 Loc="652 321 1251 720"
 State=0
 Number=2
-File="Mezzanine_GPIO_Breakout.sch"
+File="C:/Users/casey.kuhns/Documents/GitHub/EdisonMezzanine/Edison_Mezzanine_Console_Basic/Hardware/Edzzanine_Console_Basic.sch"
 View="-5.50062 -4.23062 254.116 189.346"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -77,8 +77,8 @@ Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="741 171 1724 570"
-State=1
+Loc="-1107 262 -508 661"
+State=2
 Number=0
 
 [Desktop]
