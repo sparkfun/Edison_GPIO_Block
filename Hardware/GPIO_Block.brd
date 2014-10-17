@@ -164,7 +164,7 @@
 <dimension x1="1.778" y1="44.45" x2="5.08" y2="0" x3="35.56" y3="22.225" textsize="1.27" textratio="15" layer="51" dtype="vertical" unit="inch"/>
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="42" rot="R180"/>
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="41" rot="R180"/>
-<text x="29.21" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center">4xM2.0</text>
+<text x="29.21" y="6.223" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center">4xM2.0</text>
 <text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v10</text>
 <text x="11.684" y="-7.62" size="0.8128" layer="21" font="vector" ratio="15" align="center-left">GP44</text>
 <text x="11.684" y="-10.16" size="0.8128" layer="21" font="vector" ratio="15" align="center-left">GP45</text>
@@ -200,9 +200,41 @@ PWM1</text>
 <wire x1="14.859" y1="-6.35" x2="21.59" y2="-6.35" width="0.254" layer="21"/>
 <text x="29.972" y="36.83" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270">GPIO Block</text>
 <text x="25.4" y="-5.08" size="1.778" layer="51">NOTE: Units are in Inches</text>
-<text x="4.9276" y="12.2174" size="1.016" layer="21" ratio="15" rot="R90">3.3V</text>
-<text x="5.7404" y="12.2174" size="1.016" layer="21" ratio="15" rot="R90" align="top-left">VSYS</text>
-<text x="3.302" y="11.176" size="1.016" layer="21" ratio="15" rot="R90" align="bottom-center">LEVEL SEL</text>
+<text x="4.9276" y="12.2174" size="1.016" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
+<text x="5.7404" y="12.2174" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="top-left">VSYS</text>
+<text x="3.302" y="11.176" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">LEVEL SEL</text>
+<text x="11.303" y="-7.62" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP44</text>
+<text x="11.303" y="-10.16" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP45</text>
+<text x="11.303" y="-12.573" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP46</text>
+<text x="11.303" y="-15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP47</text>
+<text x="11.303" y="-17.78" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP48</text>
+<text x="11.303" y="-20.32" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP49</text>
+<text x="11.303" y="-22.86" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP15</text>
+<text x="11.303" y="-25.4" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GP14</text>
+<text x="11.303" y="-5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">VSYS</text>
+<text x="11.303" y="-2.54" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">GND</text>
+<text x="19.05" y="-2.54" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-right">3.3v</text>
+<text x="19.05" y="-5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-right">1.8v</text>
+<text x="19.05" y="-7.62" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP131
+TX</text>
+<text x="19.05" y="-10.16" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP130
+RX</text>
+<text x="19.05" y="-12.7" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP129
+RTS</text>
+<text x="19.05" y="-15.24" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP128
+CTS</text>
+<text x="19.05" y="-17.78" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP183
+PWM3</text>
+<text x="19.05" y="-20.32" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP182
+PWM2</text>
+<text x="19.05" y="-22.86" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP12
+PWM0</text>
+<text x="19.05" y="-25.4" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-left">GP13
+PWM1</text>
+<text x="15.24" y="-6.096" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">UART1</text>
+<wire x1="21.59" y1="-16.51" x2="14.859" y2="-16.51" width="0.254" layer="22"/>
+<wire x1="14.859" y1="-6.35" x2="14.859" y2="-16.51" width="0.254" layer="22"/>
+<wire x1="14.859" y1="-6.35" x2="21.59" y2="-6.35" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2168,11 +2200,13 @@ design rules under a new name.</description>
 <wire x1="25.96" y1="20.9798" x2="24.9942" y2="20.9798" width="0.1524" layer="1"/>
 <wire x1="25.96" y1="20.5798" x2="27.0452" y2="20.5798" width="0.1524" layer="1"/>
 <wire x1="27.0452" y1="20.5798" x2="27.051" y2="20.574" width="0.1524" layer="1"/>
-<wire x1="24.9752" y1="21.3798" x2="26.7528" y2="21.3798" width="0.1524" layer="16"/>
+<wire x1="25.6102" y1="21.3798" x2="26.7528" y2="21.3798" width="0.1524" layer="16"/>
 <wire x1="26.7528" y1="21.3798" x2="26.753" y2="21.38" width="0.1524" layer="16"/>
 <wire x1="25.96" y1="20.5798" x2="26.9182" y2="20.5798" width="0.1524" layer="16"/>
 <wire x1="26.9182" y1="20.5798" x2="27.051" y2="20.447" width="0.1524" layer="16"/>
 <wire x1="25.96" y1="20.5798" x2="25.96" y2="20.58" width="0.1524" layer="16"/>
+<via x="24.6888" y="22.5552" extent="1-16" drill="0.3302"/>
+<via x="4.318" y="5.715" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="VSYS">
 <via x="22.08" y="23.215" extent="1-16" drill="0.3302"/>
@@ -2246,12 +2280,13 @@ design rules under a new name.</description>
 <wire x1="21.336" y1="0.762" x2="23.368" y2="0.762" width="0.254" layer="16"/>
 <wire x1="23.368" y1="0.762" x2="27.178" y2="4.572" width="0.254" layer="16"/>
 <wire x1="27.178" y1="4.572" x2="27.178" y2="6.604" width="0.254" layer="16"/>
-<wire x1="27.178" y1="6.604" x2="24.892" y2="8.89" width="0.254" layer="16"/>
-<wire x1="24.892" y1="8.89" x2="24.892" y2="20.955" width="0.254" layer="16"/>
-<wire x1="24.067" y1="21.78" x2="23.32" y2="21.78" width="0.1524" layer="16"/>
-<wire x1="24.4672" y1="21.3798" x2="23.32" y2="21.3798" width="0.1524" layer="16"/>
-<wire x1="24.892" y1="20.955" x2="24.4672" y2="21.3798" width="0.254" layer="16"/>
-<wire x1="24.4672" y1="21.3798" x2="24.067" y2="21.78" width="0.1524" layer="16"/>
+<wire x1="27.178" y1="6.604" x2="25.019" y2="8.763" width="0.254" layer="16"/>
+<wire x1="25.019" y1="8.763" x2="25.019" y2="21.336" width="0.254" layer="16"/>
+<wire x1="24.702" y1="21.78" x2="23.32" y2="21.78" width="0.1524" layer="16"/>
+<wire x1="24.702" y1="21.78" x2="25.019" y2="21.463" width="0.1524" layer="16"/>
+<wire x1="25.019" y1="21.463" x2="25.019" y2="21.336" width="0.254" layer="16"/>
+<wire x1="23.32" y1="21.3798" x2="24.5548" y2="21.3798" width="0.1524" layer="16"/>
+<wire x1="24.5548" y1="21.3798" x2="24.765" y2="21.59" width="0.1524" layer="16"/>
 </signal>
 <signal name="GP183_PWM3">
 <wire x1="25.96" y1="15.38" x2="26.6068" y2="15.38" width="0.1524" layer="16"/>
@@ -3085,7 +3120,6 @@ design rules under a new name.</description>
 <wire x1="18.8722" y1="-3.6322" x2="20.32" y2="-5.08" width="0.1524" layer="16"/>
 <contactref element="U4" pad="5"/>
 <contactref element="U4" pad="6"/>
-<wire x1="20.712" y1="4.372" x2="20.712" y2="4.772" width="0.1524" layer="1"/>
 <contactref element="U1" pad="5"/>
 <contactref element="U1" pad="6"/>
 <wire x1="24.5364" y1="8.7376" x2="26.797" y2="6.477" width="0.1524" layer="16"/>
@@ -3095,7 +3129,7 @@ design rules under a new name.</description>
 <wire x1="24.638" y1="3.683" x2="23.241" y2="3.683" width="0.1524" layer="16"/>
 <wire x1="23.241" y1="3.683" x2="22.8854" y2="4.0386" width="0.1524" layer="16"/>
 <via x="22.8854" y="4.0386" extent="1-16" drill="0.3302"/>
-<wire x1="22.8854" y1="4.0386" x2="22.152" y2="4.772" width="0.1524" layer="1"/>
+<wire x1="22.8854" y1="4.0386" x2="22.3" y2="4.624" width="0.1524" layer="1"/>
 <wire x1="22.152" y1="4.772" x2="20.712" y2="4.772" width="0.1524" layer="1"/>
 <wire x1="18.8722" y1="-3.6322" x2="18.8722" y2="-1.0668" width="0.1524" layer="16"/>
 <wire x1="18.8722" y1="-1.0668" x2="21.082" y2="1.143" width="0.1524" layer="16"/>
@@ -3103,11 +3137,9 @@ design rules under a new name.</description>
 <wire x1="22.352" y1="1.143" x2="22.987" y2="1.143" width="0.1524" layer="16"/>
 <wire x1="22.987" y1="1.143" x2="24.638" y2="2.794" width="0.1524" layer="16"/>
 <wire x1="24.638" y1="2.794" x2="24.638" y2="3.683" width="0.1524" layer="16"/>
-<wire x1="12.119" y1="9.282" x2="12.519" y2="9.282" width="0.1524" layer="1"/>
 <via x="12.2428" y="10.795" extent="1-16" drill="0.3302"/>
 <wire x1="12.2428" y1="10.795" x2="12.519" y2="10.5188" width="0.1524" layer="1"/>
 <wire x1="12.519" y1="10.5188" x2="12.519" y2="9.282" width="0.1524" layer="1"/>
-<wire x1="20.7406" y1="4.3434" x2="20.712" y2="4.372" width="0.1524" layer="1"/>
 <wire x1="12.2428" y1="10.795" x2="12.2428" y2="15.8496" width="0.1524" layer="16"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
@@ -3128,6 +3160,12 @@ design rules under a new name.</description>
 <wire x1="20.828" y1="22.352" x2="22.2002" y2="20.9798" width="0.1524" layer="1"/>
 <wire x1="22.2002" y1="20.9798" x2="23.32" y2="20.9798" width="0.1524" layer="1"/>
 <wire x1="18.7452" y1="22.352" x2="19.7104" y2="22.352" width="0.1524" layer="16"/>
+<wire x1="12.119" y1="9.282" x2="12.119" y2="10.6712" width="0.1524" layer="1"/>
+<wire x1="12.119" y1="10.6712" x2="12.2428" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="22.152" y1="4.772" x2="22.3" y2="4.624" width="0.1524" layer="1"/>
+<wire x1="22.3" y1="4.624" x2="22.3" y2="4.6" width="0.1524" layer="1"/>
+<wire x1="20.712" y1="4.372" x2="22.072" y2="4.372" width="0.1524" layer="1"/>
+<wire x1="22.072" y1="4.372" x2="22.3" y2="4.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="FW_RCVR">
 <wire x1="25.96" y1="9.38" x2="26.7642" y2="9.38" width="0.1524" layer="16"/>
